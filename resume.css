@@ -34,15 +34,12 @@ h2 {
 }
 
 h3 {
-    font-size: 14px;
+    font-size: 14pt;
     width: fit-content;
 }
 
-.vr {
-    max-width: 2px;
-    min-width: 2px;
-    height: 60vh;
-    margin-block: auto;
+h4 {
+    font-size: 13pt;
 }
 
 .vr-puzzle {
@@ -64,8 +61,8 @@ h3 {
 }
 
 .skill-stack {
-    margin-inline-start: 3em;
-    margin-inline-end: 2em;
+    margin-inline-start: 2em;
+    margin-inline-end: .5em;
     margin-block: 1em;
     width: 160px;
     height: fit-content;
@@ -76,10 +73,38 @@ h3 {
     text-align: end;
 }
 
-.frameworks {
+.profs {
     font-size: 10px;
     margin-block: .3em;
 }
+.five {
+    background-image: url("ducky.png");
+    background-size: 12px;
+    background-repeat: repeat-x;
+    width:60px;
+ }
+
+.four {
+    background-image: url("ducky.png");
+    background-size: 12px;
+    background-repeat: repeat-x;
+    width:48px;
+    /* background-position: ; */
+}
+
+.three {
+    background-image: url("ducky.png");
+    background-size: 12px;
+    background-repeat: repeat-x;
+    width:36px;
+ }
+.two {
+    background-image: url("ducky.png");
+    background-size: 12px;
+    background-repeat: repeat-x;
+    width:24px;
+ }
+
 
 hr {
     margin-block: 0;
