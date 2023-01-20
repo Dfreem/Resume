@@ -4,8 +4,14 @@
 font-family: 'Raleway', sans-serif;
 font-family: 'Signika', sans-serif; 
 */
+html {
+    max-height:11in;
+    background-color:red;
+}
+
 body {
     padding-inline: 0.5in;
+    background-color:red;
     padding-block-start: 2em;
     margin: auto;
     max-width: 8.5in;
@@ -34,6 +40,7 @@ h2 {
 }
 
 h3 {
+    margin-block:.2em;
     font-size: 14pt;
     width: fit-content;
 }
@@ -48,23 +55,25 @@ h4 {
 }
 
 .work-history {
-    width: 90%;
+    width: 80%;
     align-self: flex-end;
     margin-inline-end: 2em;
+    margin-block:.2em;
 }
 
 .education {
     align-self: flex-end;
+    margin-inline-start: 1em;
     margin-inline-end: 2em;
-    width: 90%;
+    width: 80%;
     margin-block-start: 0em;
 }
 
 .skill-stack {
     margin-inline-start: 2em;
-    margin-inline-end: .5em;
-    margin-block-end: 1em;
-    width: 30vw;
+    margin-inline-end: 1em;
+    /* margin-block: 1em; */
+    width: 20vw;
     height: fit-content;
 }
 
@@ -79,10 +88,10 @@ h4 {
 }
 
 .extra {
+    width: 80%;
     align-self: flex-end;
     margin-inline-end: 2em;
-    width: 90%;
-    margin-block-start: 0em;
+    margin-block:.1em;
 }
 
 .five {

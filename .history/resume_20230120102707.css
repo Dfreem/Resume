@@ -34,6 +34,7 @@ h2 {
 }
 
 h3 {
+    margin-block:.2em;
     font-size: 14pt;
     width: fit-content;
 }
@@ -63,8 +64,8 @@ h4 {
 .skill-stack {
     margin-inline-start: 2em;
     margin-inline-end: .5em;
-    margin-block-end: 1em;
-    width: 30vw;
+    margin-block: 1em;
+    width: 180px;
     height: fit-content;
 }
 
@@ -77,14 +78,6 @@ h4 {
     font-size: 10px;
     margin-block: .3em;
 }
-
-.extra {
-    align-self: flex-end;
-    margin-inline-end: 2em;
-    width: 90%;
-    margin-block-start: 0em;
-}
-
 .five {
     background-image: url("ducky.png");
     background-size: 12px;
