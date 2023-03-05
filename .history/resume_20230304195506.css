@@ -11,8 +11,8 @@ body {
     margin-bottom:0.5in;
     max-width: 8.5in;
     min-width: 8.5in;
-    max-height: 10.75in;
-    min-height: 10.75in;
+    max-height: 11in;
+    min-height: 11in;
     font-size: 10pt;
     background-color: rgb(255, 250, 228);
 }
@@ -76,6 +76,17 @@ h4 {
     text-align: right;
 }
 
+.profs {
+    position:absolute;
+    /* outline: 1px solid grey; */
+    margin-top: 0em;
+    margin-bottom:auto;
+    background-color: chartreuse;
+    max-width:8.5in;
+    margin-inline: auto;
+    /* margin:auto; */
+}
+
  .skill > li {
     font-size: small;
  }
@@ -86,10 +97,8 @@ hr {
 
 ul {
     padding-Inline: 0;
-    
 }
 
 li {
     list-style: none;
-    padding-inline:0;
 }

@@ -11,8 +11,7 @@ body {
     margin-bottom:0.5in;
     max-width: 8.5in;
     min-width: 8.5in;
-    max-height: 10.75in;
-    min-height: 10.75in;
+    max-height: 11in;
     font-size: 10pt;
     background-color: rgb(255, 250, 228);
 }
@@ -25,7 +24,7 @@ body {
 h1 {
     font-family: 'Signika', sans-serif;
     text-align: center;
-    font-size: 24pt;
+    font-size: 22pt;
     letter-spacing: 105%;
 }
 
@@ -43,7 +42,7 @@ h3 {
 }
 
 h4 {
-    font-size: 10pt;
+    font-size: 12pt;
 }
 
 .puzzle-piece {
@@ -76,6 +75,17 @@ h4 {
     text-align: right;
 }
 
+.profs {
+    position:relative;
+    margin-inline: auto;
+    height: fit-content;
+    /* outline: 1px solid grey; */
+    /* margin-block: 1em; */
+    /* background-color: chartreuse; */
+    width:fit-content;
+    /* margin:auto; */
+}
+
  .skill > li {
     font-size: small;
  }
@@ -86,10 +96,8 @@ hr {
 
 ul {
     padding-Inline: 0;
-    
 }
 
 li {
     list-style: none;
-    padding-inline:0;
 }
